@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #0D0D0D #1A1A1A; /* Firefox Scrollbar (Thumb & Track) */
+}
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar Track (Background) - Matches ChatGPT's dark mode */
+::-webkit-scrollbar-track {
+  background-color: #101418; /* Dark gray */
+}
+
+/* Scrollbar Thumb (Moving part) - Slightly lighter than track */
+::-webkit-scrollbar-thumb {
+  background-color: #2A2E35; /* Darker gray but not pure black */
+  border-radius: 5px;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2A2E35 #101418;
+}

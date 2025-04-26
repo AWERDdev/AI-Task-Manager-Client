@@ -1,0 +1,17 @@
+button{
+    cursor: pointer;
+
+  }
+  input{
+    outline: 1px solid lightgray;
+  }
+  
+  input:focus{
+    border: 1px solid lightgray;
+  }
+  a{
+    text-decoration: none;
+  }
+  
+  
+  
